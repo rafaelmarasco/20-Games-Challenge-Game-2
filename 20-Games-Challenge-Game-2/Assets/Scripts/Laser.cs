@@ -10,7 +10,10 @@ public class Laser : MonoBehaviour
     void Start()
     {
         ChooseRandomSpawnPos();
-        StartCoroutine(DespawnLaser());
+        StartCoroutine(LaserWarmUp());
+        // Show to the player where the laser is going to appear (it needs 2 to 3 secs on screen)
+        // set the laser object to visible, then start the coroutine
+
     }
 
     // Update is called once per frame
@@ -19,9 +22,20 @@ public class Laser : MonoBehaviour
 
     }
 
+    IEnumerator LaserWarmUp()// Makes the exclamation sign desapper after 2.5 secs and the laser appear starting the despawn routine at the same time
+    {
+
+        yield return new WaitForSeconds(2.5f);
+        // desativar a exclamacao
+        Destroy(gameObject.transform.GetChild(1).gameObject);
+        StartCoroutine(DespawnLaser());
+        
+    }
+
 
     IEnumerator DespawnLaser()
     {
+        gameObject.transform.GetChild(0).gameObject.SetActive(true);
         yield return new WaitForSeconds(screenTime);
         Destroy(gameObject);
     }
