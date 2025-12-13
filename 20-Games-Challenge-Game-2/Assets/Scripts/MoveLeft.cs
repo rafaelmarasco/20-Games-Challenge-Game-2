@@ -3,16 +3,13 @@ using UnityEngine;
 public class MoveLeft : MonoBehaviour
 {
     private Rigidbody2D objectRb;
-    private float xLimit = -10f;
-    private float yRange = 3.5f;
-    private float xStartPos = 10f;
+    public float xLimit = -10f;
     public float moveSpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         objectRb = GetComponent<Rigidbody2D>();
 
-        ChooseRandomSpawnPos();
         objectRb.AddForce(Vector2.left * moveSpeed, ForceMode2D.Impulse);
     }
 
@@ -25,15 +22,4 @@ public class MoveLeft : MonoBehaviour
         }
     }
 
-    void ChooseRandomSpawnPos()
-    {
-        Vector2 randomPos = new Vector2(xStartPos, Random.Range(-yRange, yRange));
-
-        transform.position = randomPos;
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(gameObject);
-    }
 }
