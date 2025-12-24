@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: cd609064a9edfb346b99f626738f3286
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3728576333942791688
+    second: Game2-Laser 1_0
+  - first:
+      213: 8572228245086942400
+    second: Game2-Laser 1_1
+  - first:
+      213: -8513757742993049845
+    second: Game2-Laser 1_2
+  - first:
+      213: 6664325525835364190
+    second: Game2-Laser 1_3
+  - first:
+      213: -982545536022815044
+    second: Game2-Laser 1_4
+  - first:
+      213: 1244883022820621437
+    second: Game2-Laser 1_5
+  - first:
+      213: -2444484501285457015
+    second: Game2-Laser 1_6
+  - first:
+      213: -1766713962148032360
+    second: Game2-Laser 1_7
+  - first:
+      213: 1463947478129607918
+    second: Game2-Laser 1_8
+  - first:
+      213: 430456204048805861
+    second: Game2-Laser 1_9
+  - first:
+      213: -8901423259003382065
+    second: Game2-Laser 1_10
+  - first:
+      213: -7576203016126570574
+    second: Game2-Laser 1_11
+  - first:
+      213: -8075180591798981494
+    second: Game2-Laser 1_12
+  - first:
+      213: -4998362071977081889
+    second: Game2-Laser 1_13
+  - first:
+      213: -5618992962659703842
+    second: Game2-Laser 1_14
+  - first:
+      213: -8311585039780340303
+    second: Game2-Laser 1_15
+  - first:
+      213: 487152991458221332
+    second: Game2-Laser 1_16
+  - first:
+      213: -476705689102559657
+    second: Game2-Laser 1_17
+  - first:
+      213: 617644758035668650
+    second: Game2-Laser 1_18
+  - first:
+      213: 592679593870018370
+    second: Game2-Laser 1_19
+  - first:
+      213: 5286379419151693892
+    second: Game2-Laser 1_20
+  - first:
+      213: 6416564642030906743
+    second: Game2-Laser 1_21
+  - first:
+      213: 2810507975819655131
+    second: Game2-Laser 1_22
+  - first:
+      213: -8218670425658553139
+    second: Game2-Laser 1_23
+  - first:
+      213: 3845632321726296925
+    second: Game2-Laser 1_24
+  - first:
+      213: 4735647068347773248
+    second: Game2-Laser 1_25
+  - first:
+      213: 7646896890749181802
+    second: Game2-Laser 1_26
+  - first:
+      213: -6262885373840992647
+    second: Game2-Laser 1_27
+  - first:
+      213: 5725173220909273499
+    second: Game2-Laser 1_28
+  - first:
+      213: -6282818685843726007
+    second: Game2-Laser 1_29
+  - first:
+      213: -5403379515258606719
+    second: Game2-Laser 1_30
+  - first:
+      213: -3905982857486612226
+    second: Game2-Laser 1_31
+  - first:
+      213: 770546013576013382
+    second: Game2-Laser 1_32
+  - first:
+      213: -5768422180131999851
+    second: Game2-Laser 1_33
+  - first:
+      213: -4127501931181820191
+    second: Game2-Laser 1_34
+  - first:
+      213: 2612069467881270557
+    second: Game2-Laser 1_35
+  - first:
+      213: -4822804535537825182
+    second: Game2-Laser 1_36
+  - first:
+      213: -2182965328054861131
+    second: Game2-Laser 1_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game2-Laser 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053d9fbf419e56f4b838f59f85b94088
+      internalID: 3728576333942791688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d806dcc32a8cb24dbb72e7cbcae1fcc
+      internalID: 8572228245086942400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f2c0d5f8d9edc438438c700bfec5cc
+      internalID: -8513757742993049845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb5a917e6555cf4592e940a6f951d95
+      internalID: 6664325525835364190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbcd23bc3006d0469d78a70d2b4c416
+      internalID: -982545536022815044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c7fe2c5758ff4788d3cf77649bf2d
+      internalID: 1244883022820621437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2691a234f5498014eb3ada6bae291ff3
+      internalID: -2444484501285457015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957657eb6e841654f8a08fb178466303
+      internalID: -1766713962148032360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc655cf7ba099a4a83d99cc02938f22
+      internalID: 1463947478129607918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514a2535aecd2c44a98265d54550032e
+      internalID: 430456204048805861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7804cb70a4e314a92bd5d2aecead38
+      internalID: -8901423259003382065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1c8b10cb7be0e42a5c7f940cb4e641
+      internalID: -7576203016126570574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbbb2881c8c20c478896449618e87de
+      internalID: -8075180591798981494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162820ddb236f114f857cae38fa6310c
+      internalID: -4998362071977081889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game2-Laser 1_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786f5372fb9e4c34493e86779a7cc19d
+      internalID: -5618992962659703842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2ddbd948ceb3ba049bd0c6644e2bf365
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Game2-Laser 1_0: 3728576333942791688
+      Game2-Laser 1_1: 8572228245086942400
+      Game2-Laser 1_10: -8901423259003382065
+      Game2-Laser 1_11: -7576203016126570574
+      Game2-Laser 1_12: -8075180591798981494
+      Game2-Laser 1_13: -4998362071977081889
+      Game2-Laser 1_14: -5618992962659703842
+      Game2-Laser 1_2: -8513757742993049845
+      Game2-Laser 1_3: 6664325525835364190
+      Game2-Laser 1_4: -982545536022815044
+      Game2-Laser 1_5: 1244883022820621437
+      Game2-Laser 1_6: -2444484501285457015
+      Game2-Laser 1_7: -1766713962148032360
+      Game2-Laser 1_8: 1463947478129607918
+      Game2-Laser 1_9: 430456204048805861
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
