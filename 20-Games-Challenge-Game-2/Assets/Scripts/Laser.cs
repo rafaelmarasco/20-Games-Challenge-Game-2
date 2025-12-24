@@ -6,13 +6,16 @@ public class Laser : MonoBehaviour
     private float xStartPos = 1f;
     private float yRange = 3.5f;
     private float screenTime = 1.5f;
+    private BoxCollider2D collider2d;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        collider2d = GetComponent<BoxCollider2D>();
+        collider2d.enabled = false;
         ChooseRandomSpawnPos();
-        StartCoroutine(LaserWarmUp());
-        // Show to the player where the laser is going to appear (it needs 2 to 3 secs on screen)
-        // set the laser object to visible, then start the coroutine
+        StartCoroutine(LaserWarmUp()); // Show to the player where the laser is going to appear (it needs 2 to 3 secs on screen)
+
+
 
     }
 
@@ -26,16 +29,16 @@ public class Laser : MonoBehaviour
     {
 
         yield return new WaitForSeconds(2.5f);
-        // desativar a exclamacao
-        Destroy(gameObject.transform.GetChild(1).gameObject);
-        StartCoroutine(DespawnLaser());
-        
+        Destroy(gameObject.transform.GetChild(1).gameObject); // desativar a exclamacao
+        StartCoroutine(DespawnLaser()); // set the laser object to visible, then start the coroutine
+
     }
 
 
     IEnumerator DespawnLaser()
     {
         gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
         yield return new WaitForSeconds(screenTime);
         Destroy(gameObject);
     }

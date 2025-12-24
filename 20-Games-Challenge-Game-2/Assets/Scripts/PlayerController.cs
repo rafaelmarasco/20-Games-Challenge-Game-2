@@ -3,7 +3,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D playerRb;
-    public float flySpeed;
+    [SerializeField] private float flySpeed;
+    private float yLitmit = 4f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,5 +19,13 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.AddForce(Vector2.up * flySpeed);
         }
+
+        if (transform.position.y >= yLitmit)
+        {   
+            float fallSpeed = -(flySpeed + 2);
+            transform.position = new Vector2(transform.position.x, yLitmit);
+            playerRb.AddForce(Vector2.up * fallSpeed);
+        }
     }
+
 }
